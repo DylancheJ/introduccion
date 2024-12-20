@@ -1,0 +1,44 @@
+body{
+    font-family: Arial,  sans-serif; /* Familia de fuentes */
+    font-size: 20px; /* El tamaño de la fuente principal en el tag <p></p> */
+    background-color: #f0f0f0; /* El color del fondo de la página web */
+    color: #08024c; /* El color del texto*/ 
+    
+    
+}
+h1{
+    text-align: center;
+    font-weight:bold;
+    animation: color-change 3s infinite;
+    @keyframes color-change {
+        0% {
+          color: blue;
+        }
+      
+        50% {
+          color: red;
+        }
+      
+        100% {
+          color: blue;
+        }
+    }
+}
+p{
+    text-align: justify;
+}
+img{
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    transition: all 1s;
+   
+}
+img:hover{width: 600px;}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
